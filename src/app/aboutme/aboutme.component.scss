@@ -1,0 +1,22 @@
+.portfolio .mat-card-avatar {
+  height: 15px;
+  width: 15px;
+}
+
+.portfolio {
+  margin-top: 20px;
+}
+.portfolio .mat-card-title {
+  height: 40px;
+}
+.portfolio .mat-card-header {
+  height: 80px;
+}
+
+.portfolio .mat-card-content p {
+  height: 210PX;
+}
+
+.portfolio .portfolioItem :hover {
+  background: #a9daaa;
+}

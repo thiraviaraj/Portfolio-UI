@@ -1,0 +1,62 @@
+.social-links a{
+  text-align:center;
+	float: left;
+	width: 25px;
+  height: 25px;
+  background: white;
+	border-radius: 100%;
+	margin-right: 7px; /*space between*/
+    display: flex;
+    align-items: flex-start;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+.social-links a i{
+	font-size: 15px;
+    align-self:center;
+	color: rgb(87, 148, 87);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    margin: 0 auto;
+}
+.social-links a i::before{
+  display:inline-block;
+  text-decoration:none;
+}
+.social-links a:hover{
+  background: rgba(0,0,0,0.2);
+}
+.social-links a:hover i{
+  color:#fff;
+}
+
+footer {
+  background: #507b50;
+  color: white;
+  height: 30px;
+  padding: 10px;
+}
+.nav {
+  font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
+}
+.greyColor {
+  background: #728272e6 !important;
+}
+
+.leftSide {
+  background: #579457; min-height: 100vh;color: whitesmoke;
+}
+
+.rightSide {
+  background:whitesmoke; min-height: 350px;padding-top: 25px; padding-left: 45px;
+}
+
+.titleHeader {
+  text-align: center; margin-top: 30px; margin-bottom: 0px
+}
+
+.logoImage {
+  border-radius: 50%;
+  width: 160px;
+  height: 200px;
+}

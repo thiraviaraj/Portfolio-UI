@@ -1,0 +1,53 @@
+<div class="fullHeight" fxLayout="row" fxLayout.xs="column">
+  <div class="fullHeight leftSide" fxLayout="column" fxLayoutAlign="start center" fxLayoutGap="20px" fxLayout.xs="column"
+    fxFlex="20">
+    <div>
+      <h1 class="titleHeader">THIRAVIARAJ</h1>
+    </div>
+    <div><img class="logoImage"
+        src="https://png.pngtree.com/png-vector/20190321/ourmid/pngtree-vector-users-icon-png-image_856952.jpg"
+        /></div>
+    <div class="centerAlign">Hi, my name is Thiraviaraj and I'm a senior software engineer. Welcome to my
+      webpage!</div>
+    <div class="social-links">
+      <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+      <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+      <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+      <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+    </div>
+    <div fxLayout="column" fxLayoutGap="10px" class="nav">
+      <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px" routerLink="about-me"><i class="fa fa-address-card"></i> <span>About Me</span></div>
+      <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px" routerLink="portfolio"><i class="fa fa-paint-brush"></i> <span>Portfolio</span></div>
+      <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px" routerLink="services"><i class="fa fa-money"></i> <span>Services & Pricing</span></div>
+      <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px" routerLink="resume"><i class="fa fa-newspaper-o"></i> <span>Resume</span></div>
+      <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px" routerLink="blog"><i class="fa fa-internet-explorer"></i> <span>Blog</span></div>
+      <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px" routerLink="contact"><i class="fa fa-phone"></i> <span>Contact</span></div>
+    </div>
+
+    <hr class="separator">
+    <button class="greyColor" mat-raised-button color="primary">Hire Me</button>
+  </div>
+  <div fxFlex="80" fxLayout="column">
+    <div fxLayout="row" class="rightSide"
+      fxLayoutGap="60px">
+      <div fxFlex="50" fxLayout="column" fxLayoutGap="30px">
+        <h1 style="font-size: 48px; margin-bottom: 10px">Thiraviaraj</h1>
+        <span style="font-family: 'Josefin Sans'; font-size: 24px; color: grey; padding-left: 5px">Senior Software
+          Engineer</span>
+
+        <div>At first I intended to be A-Z web developer. As days past I have tuned to be UX guy. Evenly balanced with creativity and knowledge. I am a tireless seeker of knowledge, occasional purveyor of wisdom and also.<br>
+          I fall on the UX developer to bridge the gap between design and technology. This can be a critical piece of the puzzle in a project, especially if the design and the interactions behind it are complex.</div>
+        <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="end start"><button mat-raised-button>View
+            Portfolio</button>
+          <button mat-raised-button color="primary">View Resume</button>
+        </div>
+      </div>
+      <div fxFlex="50" style="overflow: hidden"><img src="https://miro.medium.com/max/1360/1*IRGHmiGsa16stedQvIaZfw.gif"
+          width="80%"></div>
+    </div>
+    <div [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''" style="height: 100%;padding-left: 45px;padding-right: 45px;margin-top: 20px;margin-bottom: 20px;">
+      <router-outlet #o="outlet"></router-outlet>
+    </div>
+    <footer fxLayout="row" fxFlex="100" fxLayoutAlign="end center" >Copyright protected @ 2020 (AauroSoftech) </footer>
+  </div>
+</div>

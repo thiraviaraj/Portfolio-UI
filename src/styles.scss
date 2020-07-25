@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-primary {
+  background: green!important;
+}
+
+.fullHeight {
+  min-height: 100vh;
+}
+
+.centerAlign {
+  text-align: center;
+}
+
+.separator {
+  border: #80808078 1px solid;
+    background: #6271638a;
+    width: 90%;
+}
+
+// router-outlet ~ * {
+//   position: absolute;
+// }
