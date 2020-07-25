@@ -3,6 +3,8 @@ Build Status: [![CircleCI](https://circleci.com/gh/thiraviaraj/Portfolio-UI.svg?
 
 URL : https://my-portfolio-ui.herokuapp.com/
 
+This project was developed for demonstrating angular 8 (routing, animation), CICD(CircleCI), Deployment(Heroku)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
 ## Development server
