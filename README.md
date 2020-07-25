@@ -1,6 +1,8 @@
 # Portfolio 
 Build Status: [![CircleCI](https://circleci.com/gh/thiraviaraj/Portfolio-UI.svg?style=svg)](https://circleci.com/gh/thiraviaraj/Portfolio-UI) 
+
 URL : https://my-portfolio-ui.herokuapp.com/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
 ## Development server
