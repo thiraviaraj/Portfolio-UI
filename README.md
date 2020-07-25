@@ -1,4 +1,5 @@
-# Portfolio
+# Portfolio 
+Build Status: [![CircleCI](https://circleci.com/gh/thiraviaraj/Portfolio-UI.svg?style=svg)](https://circleci.com/gh/thiraviaraj/Portfolio-UI) 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
